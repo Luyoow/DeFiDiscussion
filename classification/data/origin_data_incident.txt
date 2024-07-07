@@ -1,0 +1,907 @@
+[2021-05-16 03:39:01] <oba> https://etherscan.io/tx/0x025de08816b54f712cf47e8001303f692e814b322d7bd1bb5be0eb37d427839d
+[2021-05-16 03:40:28] <nazariyv> you have seen what that guy does with the rugpulled money? he sends the proceeds to another account that account buys memecoin with a portion of proceeds and forwards the rest to a different account and he repeats this actions until he runs out of the rugged money. And he ends up with 2030 new accounts each invested in a shitcoin
+[2021-05-16 03:40:43] <nazariyv> this is his final transactionhttps://etherscan.io/address/0x3f9b1597ede4499f86895f269c4f0a63e272acfb
+[2021-05-16 03:42:30] <nazariyv> oh this is his another rugpull. Amazing
+--------------------------------------------------------------------------------
+[2021-10-04 05:10:31] <Randall> What is this? zomg
+[2021-10-04 05:12:04] <heathclifflover> You eat your words with your asshole might be one of my favorite things I’ve ever read
+[2021-10-04 05:12:13] <Randall> Was StarShip a rugpull?
+[2021-10-04 05:13:24] <Randall> OOh https://etherscan.io/tx/0x55aca98ff97872a8a261bc213931f52471e69acffb4f0ef48ac7b655bbda470a
+[2021-10-04 05:13:30] <Randall> https://etherscan.io/tx/0x0666d95d04fb904be7b2d1132958f94e7492996c7e0ccb356f49547ac4ad49fb
+[2021-10-04 05:14:21] <Randall> And the justification of course: https://etherscan.io/tx/0xc732073d5cc3e696aa99b95561e9219168ea29c8e2fe4560065c308b335027dd
+[2021-10-04 05:16:12] <.burck> What did he do?
+[2021-10-04 05:23:57] <neslinesli93_prima> i guess this is the transaction with the hack: https://etherscan.io/tx/0x5122fda8af7bb5c2e97266714e92de9ffda0be78d92fc50cd0592a420af3e6b8
+[2021-10-04 05:24:37] <neslinesli93_prima> but i'm too stupid to understand what's going on still it's fun how they reply to each other every 5 minutes
+[2021-10-04 05:29:50] <.burck> 700k
+[2021-10-04 05:29:52] <.burck> not bad
+--------------------------------------------------------------------------------
+[2021-05-15 23:40:15] <MEV> hey  when using eth_callBundle I get this error
+[2021-05-15 23:40:31] <MEV> ```(node:1339) UnhandledPromiseRejectionWarning: Error: processing response error (body="{\\"jsonrpc\\":\\"2.0\\",\\"id\\":43,\\"error\\":{\\"code\\":32602,\\"message\\":\\"invalid argument 0: json: cannot unmarshal object into Go value of type []hexutil.Bytes\\"}}\ error={"code":32602},```
+[2021-05-15 23:40:32] <MEV> what gives
+[2021-05-15 23:41:32] <Deleted> They already stole 600 ETH from this pool: https://etherscan.io/address/0x9006f014b4baa8b6a651b4df5a20a6b05fc9a050#internaltxOn top of 500eth which remain in the pool
+[2021-05-15 23:44:02] <MEV> my params:```[{ txs: [ 0xf...... 0xf...... ] blockNumber: 0xbdaa48 stateBlockNumber: 0xbdaa48'}]```
+[2021-05-15 23:46:37] <nazariyv> well... how do you rug the ruggers like this... It is an interesting question. I see this happening over and over again
+[2021-05-15 23:48:08] <MEV> alright I just input:```let params = [signedBundle hexBlockNum hexBlockNum]```and got ``` UnhandledPromiseRejectionWarning: Error: processing response error (body="{\\"jsonrpc\\":\\"2.0\\",\\"id\\":43,\\"error\\":{\\"code\\":32000,\\"message\\":\\"missing trie node 11366f3f9c0fc5c32be6dd59ce823389562b0fefbf7c6c362c99579f71fc9740 (path )\\"}}\",```
+[2021-05-15 23:51:52] <MEV> do i need archive now
+[2021-05-15 23:51:55] <MEV> node
+[2021-05-16 00:01:58] <nazariyv> he just rug pulled
+[2021-05-16 00:01:58] <nazariyv> https://etherscan.io/tx/0x7213369f389fadfda1100b4d0b1b9a698743633fa15db0bdde9fbd56044cc9ba
+[2021-05-16 00:02:23] <nazariyv> this is triggering me so much
+--------------------------------------------------------------------------------
+[2021-10-08 11:18:45] <bob__> That's insane
+[2021-10-08 11:18:46] <_qiuyue> rip I can feel your pain
+[2021-10-08 11:18:56] <bob__> Especially considering the contract was just recently deployed
+[2021-10-08 11:19:37] <bob__> Was the vulnerability something that could be picked up by a normal contract vulnerability scanner
+[2021-10-08 11:20:31] <joaorcsilva> you had a function to whilelist input contracts not checking sender/owner
+[2021-10-08 11:20:52] <joaorcsilva> approved_address"+"token
+[2021-10-08 11:21:00] <joaorcsilva> https://etherscan.io/tx/0x771eab1ee8d099d3e5b003b0641543275d6339292b82d4e51dc6f632fb8ec649
+[2021-10-08 11:22:38] <bob__> Do you think it was discovered by looking at the past transactions?
+[2021-10-08 11:23:00] <bob__> Or did someone actually go through assembly code by hand and reverse engineer a whole contract
+[2021-10-08 11:23:31] <joaorcsilva> i believe it was a bruteforce bot nowadays its very common
+[2021-10-08 11:23:41] <joaorcsilva> bruteforcing in private networks
+[2021-10-08 11:24:05] <joaorcsilva> checking patterns like prev txs
+[2021-10-08 11:25:24] <joaorcsilva> if then you dedicate some time / manual attention on wealthy contracts there may extractable value
+[2021-10-08 11:25:50] <joaorcsilva> my guess
+[2021-10-08 11:29:44] <vagabond2971> this is why I can never have good sleeps while holding this job
+[2021-10-08 11:44:30] <joaorcsilva> i have checked all prev transactions and couldnt find a prev call for whitelist not transferfrom so i don\'t understand other than bruteforce / decompile how would they discover
+[2021-10-08 11:57:09] <joaorcsilva> seems like 0xa1 is a send function (tested here https://etherscan.io/tx/0xa3fc58e28692a9b5563c05cae24ffd900035ac0ba6165652cdf01fb510624ed5)
+[2021-10-08 11:57:35] <joaorcsilva> and 0xa3 is the function used to whitelist but it was never called before
+[2021-10-08 12:02:11] <Deleted> nope see: salmonella for example
+[2021-10-08 12:02:22] <Deleted> you\'re safe until somebody else finds the next vulnerability
+[2021-10-08 12:03:05] <Deleted> there\'s really no such thing as safe when playing adversarial games with MEV imo
+[2021-10-08 12:03:13] <Deleted> only play if you can afford to lose
+[2021-10-08 12:04:13] <Deleted> yeah
+[2021-10-08 12:04:29] <Deleted> I mean you can enumerate safety checks
+[2021-10-08 12:04:41] <Deleted> but as the IRA told margaret thatcher
+[2021-10-08 12:04:44] <Deleted> you need to be lucky every time
+[2021-10-08 12:04:53] <Deleted> we only need to be lucky once
+[2021-10-08 12:05:44] <Deleted> it's not particularly useful to think of security as a set of things you need to do imo
+[2021-10-08 12:05:50] <Deleted> its not like a formula
+[2021-10-08 12:05:55] <Deleted> where if you do x + y + z you're safe
+[2021-10-08 12:06:13] <Deleted> I think the point i'm trying to make is
+[2021-10-08 12:06:16] <Deleted> just because you can't think of any
+[2021-10-08 12:06:19] <Deleted> doesn't mean none exist
+[2021-10-08 12:07:02] <Deleted> so be aware of that don't risk more than you can lose and don't do stuff you don't fully understand (this last one is mostly a subtweet at the large number of searchers writing contracts in yul lately)
+[2021-10-08 12:08:58] <Deleted> its very difficult to enumerate all the threats I guess
+[2021-10-08 12:09:00] <Deleted> the other thing is
+[2021-10-08 12:09:59] <Deleted> MEV is a lot more adversarial  people might feel bad hacking random innocent people on random protocols so you get whitehats there trying to rescue funds vs blackhats taking funds etc
+[2021-10-08 12:10:13] <Deleted> MEV you don\'t really have anybody looking out for you you\'re not an innocent bystander
+[2021-10-08 12:10:43] <Deleted> not sure how much this affects people's mentality but I would imagine that many more people are OK taking funds from MEV contracts than from random defi innocents
+[2021-10-08 12:11:07] <Deleted> I think this is the key
+[2021-10-08 12:11:14] <Deleted> just accept that you can't protect against everything
+[2021-10-08 12:11:21] <Deleted> protect against as much as you can and minimize risk against the rest
+[2021-10-08 12:13:37] <joaorcsilva> you can clearly see the approve here
+[2021-10-08 12:13:39] <joaorcsilva> function func_2831(var arg0 var arg1) { memory[0x20:0x40] = 0xdd62ed3e; memory[0x40:0x60] = address(this); var var0 = 0x60; memory[var0:var0 + 0x20] = arg1; var temp0; temp0 memory[var0:var0 + 0x20] = address(arg0).staticcall.gas(msg.gas)(memory[0x3c:0x80]); if (!temp0) { var temp4 = returndata.length; memory[0x80:0x80 + temp4] = returndata[0x00:0x00 + temp4]; revert(memory[0x80:0x80 + returndata.length]); } else if (!memory[var0:var0 + 0x20]) { memory[0x20:0x40] = 0x095ea7b3; memory[0x40:0x60] = arg1; var temp1 = var0; memory[temp1:temp1 + 0x20] = 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff; var temp2; temp2 memory[temp1:temp1 + 0x20] = address(arg0).call.gas(msg.gas)(memory[0x3c:0x80]); if (!temp2) { var temp3 = returndata.length; memory[0x80:0x80 + temp3] = returndata[0x00:0x00 + temp3]; revert(memory[0x80:0x80 + returndata.length]); } else if (memory[var0:var0 + 0x20]) { return; } else { revert(memory[0x00:0x00]); } } else { return; } }
+[2021-10-08 12:14:01] <joaorcsilva> 0x095ea7b3
+[2021-10-08 12:14:15] <joaorcsilva> https://ethervm.io/decompile/0x4c51ee9d67c7d9684455e8cbfb75cac7962ec000#func_func_2831
+[2021-10-08 12:14:24] <joaorcsilva> this is where he messed up i think
+[2021-10-08 12:15:15] <0xc0ffee> so this doesn't have any guard on the caller?
+[2021-10-08 12:15:29] <joaorcsilva> infinite approve on token param + address param
+[2021-10-08 12:17:11] <joaorcsilva> no sir
+[2021-10-08 12:17:24] <0xc0ffee> wow learning a lot here....
+[2021-10-08 12:17:57] <joaorcsilva> address verification is only applied on the arbitrage calldata part
+[2021-10-08 12:18:02] <joaorcsilva> if (var1 == 0x9f) { if (msg.sender == 0xaa0c5a23dc01c017a9a879563091d94cd25930) {
+[2021-10-08 12:19:11] <0xc0ffee> right so var1 would be his data flag or something going into his public method or the like.
+[2021-10-08 12:19:43] <0xc0ffee> There is no security through obscurity on the blockchain not when people can read EVM/compiler code. 
+[2021-10-08 12:19:54] <joaorcsilva> yeah i learned a lot looking into this
+[2021-10-08 12:20:21] <joaorcsilva> first time doing this.. maybe ill digg deeper 
+[2021-10-08 12:20:32] <0xc0ffee> yeah you seem to doing ok.
+[2021-10-08 12:20:44] <0xc0ffee> how did you correlate that method to the calldata coming in on the tx?
+[2021-10-08 12:21:13] <joaorcsilva> saw the 0xa1 + 0xa3 on other tx
+[2021-10-08 12:21:26] <joaorcsilva> then look for it into the decoded there they are
+[2021-10-08 12:22:02] <joaorcsilva> .
+[2021-10-08 12:23:04] <joaorcsilva> + the hacker approve tx
+[2021-10-08 12:23:06] <joaorcsilva> https://etherscan.io/tx/0x771eab1ee8d099d3e5b003b0641543275d6339292b82d4e51dc6f632fb8ec649
+[2021-10-08 12:23:21] <joaorcsilva> 0xa3
+[2021-10-08 12:24:24] <0xc0ffee> this bit of code up top?
+[2021-10-08 12:26:13] <joaorcsilva> that is the transfer function
+[2021-10-08 12:26:21] <joaorcsilva> if you follow ends in function func_1B3B
+[2021-10-08 12:26:41] <joaorcsilva> that have calldata 0xa9059cbb (transfer)
+[2021-10-08 12:27:35] <joaorcsilva> it was not used by hacker he used native transferfrom function from WETH contract (after pre approved on the other first transfer)
+[2021-10-08 12:29:23] <joaorcsilva> with function 0xa3
+[2021-10-08 12:47:05] <0xc0ffee> I see he just made this contract approve his contract. then used the standard ERC20 stuff.
+[2021-10-08 12:58:47] <0xc0ffee> https://www.trustlook.com/services/smart.html this decompilers output reads a bit nicer.
+[2021-10-08 13:02:13] <0xc0ffee> @joaorcsilva I saw some tx.origin calls in the code too thats normally problematic also.
+[2021-10-08 13:02:17] <0xc0ffee> ?
+[2021-10-08 13:04:58] <code0x2> profits rn probably not worth haha
+[2021-10-08 13:11:32] <Deleted> yes tx.origin is almost always a bad idea
+[2021-10-08 13:13:48] <Deleted> yeah if you do balance checks it can be okay
+[2021-10-08 13:13:50] <Deleted> I think
+[2021-10-08 13:13:55] <Deleted> (maybe)
+[2021-10-08 13:15:28] <0xc0ffee> I'm really sorry this happened to you it sucks.
+[2021-10-08 13:36:49] <debugged> I feel you @tinydegen that's a tough loss :/
+[2021-10-08 13:38:03] <debugged> I recently lost 200k because of a stupid mistake too taught me to take out profit much quicker even though you're 100% sure your contracts are fine
+--------------------------------------------------------------------------------
+[2021-08-01 16:31:26] <zzp45> put another way: I don't see a contradiction in 1. feeling empathy for humans who lost funds and 2. thinking it is fair (and even good) that they lost them
+[2021-08-01 16:38:23] <optimizooor> not sure how to feel about this
+[2021-08-01 16:39:15] <nathanworsley> It shows that Salmonella is not going away but rather evolving into a real category of MEV
+[2021-08-01 16:39:55] <Deleted> Though nothing about this transaction was particularly about sandwich bots.Same could have happened with arb bot relying on tx.originhttps://dashboard.tenderly.co/tx/mainnet/0x563a6556661e8ad2b8a91656ef31e0d5d1c8a0cd551eba9aa087945d239d1739
+[2021-08-01 16:40:06] <eugeneth> Oh shit
+[2021-08-01 16:40:08] <sevaric> these attacks are definitely in an ethical gray area though
+[2021-08-01 16:40:15] <eugeneth> congrats....
+[2021-08-01 16:41:03] <nathanworsley> Really it's any strategy where it baits traders into playing with an unknown and dangerous token
+[2021-08-01 16:41:24] <Deleted> Man ignore the haters you did an awesome thing!Bot operators should get rekt if they get too relaxed.We can soon see a wave of sandwich bots getting rekt the hard way with just 1 block deep reorgs
+[2021-08-01 16:42:58] <nathanworsley> This was an impressively advanced Salmonella big kudos to @zzp45.It even had special logic to bypass mevgeth
+[2021-08-01 16:55:37] <eb> yeah I agree completely it\'s the kind of person who is going to be like they deserve it when they prey on Uniswap traders and now is going to be like boo hoo the injustice
+--------------------------------------------------------------------------------
+[2021-08-16 12:51:39] <code0x2> tbh justsell ur bot on reddit or something
+[2021-08-16 12:51:43] <code0x2> im sure an ape would buy it
+[2021-08-16 12:51:47] <code0x2> and t hen you'd have capital
+[2021-08-16 12:51:59] <code0x2> tbh the ape probably wouldn't know how to use it tho
+[2021-08-16 14:37:39] <thogard> i deserve it 
+[2021-08-16 14:39:50] <DefiCrypto> probably an uncle block attack
+[2021-08-16 14:41:17] <eugeneth> I thought that way but there was nothing to attack in fact. maybe simple reorg position is 90 indeed
+[2021-08-16 14:41:44] <eugeneth> not flashbots bundle
+[2021-08-16 14:46:11] <DefiCrypto> your flashbot transaction might have been mined in an uncle block due to which it became a public transaction. Then the miner ran your reverting transaction in its mined block to earn the gas fees
+--------------------------------------------------------------------------------
+[2021-04-23 00:23:35] <punk3155> Not likely. Take a look at https://medium.com/alchemyapi/unmaskingtheethereumunclebandita2b3eb694019
+[2021-04-23 00:24:33] <punk3155> nice writeup from @bertcmiller
+[2021-04-23 00:26:02] <Deleted> What do you mean not likely?It's a fact that ethermine rekted this guy for 120+ ETH81.51 lost due to coinbase fee directly44.89 ETH lost due to ethermine sandwiching this guy: https://etherscan.io/tx/0x7748b5c4bea4caa9158de49687438272b2e81eada63e05013a0dc0ef56d630bf200 &gt; 244.89 ETH
+[2021-04-23 00:26:19] <bertcmiller> you're both right  Ethermine did make 120 ETH and it was an uncle bandit attack
+[2021-04-23 00:26:20] <Deleted> Was it a fair play well yes it's how uncles work
+[2021-04-23 00:27:58] <punk3155> https://etherscan.io/txs?a=0xf6da21e95d74767009accb145b96897ac3630bad&amp;p=2
+[2021-04-23 00:28:38] <punk3155> there are tx from the bandit to ethermine coinbase. not sure if there are other evidences to link it to ethermine
+[2021-04-23 00:29:32] <Deleted> Ethermine uses inhouse searchers so it's a fact that anyone who extracts MEV in their blocks is build internally
+[2021-04-23 00:34:11] <brucecarl> yeah ethermine begins to reckt bots 
+--------------------------------------------------------------------------------
+[2021-06-10 23:45:32] <crypto420> Sers
+[2021-06-10 23:45:41] <crypto420> Is this a sandwich attack ? https://etherscan.io/tx/0x2ad836e62f74bb43c9d6e44168a101b556ec329510f64913dd88c7cb95baa9c2
+[2021-06-11 00:08:50] <chris124567> buy: https://etherscan.io/tx/0x3f8408e11bfe30be24c6022910ab49620c474b1d6289f1d3a67e96aa1d4c5270sandwiched tx: https://etherscan.io/tx/0x2ad836e62f74bb43c9d6e44168a101b556ec329510f64913dd88c7cb95baa9c2sell: https://etherscan.io/tx/0x1fe99b8e0a1d9ee05c824247b9207073f582ed613b9a4844017704fc2388cef9
+[2021-06-11 00:49:00] <crypto420> &gt; yes@Christopher Thank you sir 
+--------------------------------------------------------------------------------
+[2021-06-11 18:42:51] <.n0k0> ```Third bundles below 42,000 gas used are rejected by the relay. This is to mitigate spam bundles that do nothing meaningful on chain.```No idea why 42k 
+[2021-06-11 18:43:09] <xenoliss> Like if I only want to bundle an eoa to eao tx (~21k Gas) do I need to set gas to 42k as well ?
+[2021-06-11 18:48:11] <0xsmartcontract> Because ddos attack
+[2021-06-11 19:30:28] <.n0k0> Check out the updated example in the pr toohttps://github.com/flashbots/web3flashbots/pull/24Also: Here is a contract you can use https://etherscan.io/address/0xc4595e3966e0ce6e3c46854647611940a09448d3#code
+[2021-06-11 20:37:22] <ripostex> Ok fess up who's started running timebandit attacks?Woke up to my bot informing me I've won 40 Eth (found opportunity worth ~160 Eth). Largest win I've seen since Flashbots decided I should redistribute all of my profits to the miners. Went to Etherscan to check out the transaction and ... it had been uncled https://etherscan.io/block/12611723
+[2021-06-11 20:45:22] <SiegeRhino> Too bad
+[2021-06-11 20:46:19] <SiegeRhino> maybe you got time bandit ?
+[2021-06-11 20:49:02] <SiegeRhino> pretty surprising that the one block where you won big gets uncled
+[2021-06-11 20:49:13] <SiegeRhino> did you find where the opportunity got taken ?
+[2021-06-11 20:49:59] <ripostex> Yep it's top of the block looks like a PGA
+[2021-06-11 20:51:17] <ripostex> Maybe I can convince them to revert the blockchain like they did for the DAO attack 
+[2021-06-11 20:52:13] <bertcmiller> Where is the uncle?
+[2021-06-11 20:52:29] <ripostex> https://etherscan.io/uncle/0xe444d283445825b100dc53efca8da2a68171b38d9494367c8122dd3c8e679f12
+[2021-06-11 20:52:39] <ripostex> I assume? Not sure where to view uncle txs
+[2021-06-11 20:53:05] <bertcmiller> getblockbyhash or whatever
+[2021-06-11 20:53:08] <bertcmiller> Will return it
+[2021-06-11 20:53:51] <SiegeRhino> what ? I dont see any mev top of the bloc only a dude putting some BTC on compound
+[2021-06-11 20:53:57] <SiegeRhino> i mean i guess it prevented his liquidation
+[2021-06-11 20:54:23] <ripostex> It's a liquidation
+[2021-06-11 20:54:38] <ripostex> Check the event logs
+[2021-06-11 20:55:14] <SiegeRhino> oh right
+--------------------------------------------------------------------------------
+[2021-06-22 05:37:33] <vagabond2971> During extreme volatility very few liquidations go through FB which I find very interesting.. 
+[2021-06-22 05:43:37] <pyggie> Any team comments on this interesting observation?
+[2021-06-22 05:45:37] <ggmoney> Private relays.
+[2021-06-22 05:46:05] <ggmoney> Guess its called Miner EV for a reason
+[2021-06-22 05:46:05] <vagabond2971>  . Also some blocks seem weird. One tx I saw has no coinbase payment and an average gas price but was put at the first slot
+[2021-06-22 05:46:59] <ggmoney> @vagabond could've been a secondary transaction sent directly to a private relay to prioritize the senders primary transaction
+[2021-06-22 05:47:19] <ggmoney> that contained the coinbase payment
+[2021-06-22 05:50:02] <gman> what was the cause of the interruption?
+[2021-06-22 05:50:53] <ranisis> there's been an ongoing ddos attack but it should be handled now
+[2021-06-22 05:52:34] <blockypete> is it a traditional ddos or are they using actual fb requests?
+--------------------------------------------------------------------------------
+[2021-10-18 01:45:56] <vinzent2240> Theres a good post mortem write up of what happened with index finance
+[2021-10-18 01:46:00] <vinzent2240> https://ndxfi.medium.com/indexedattackpostmortemb006094f0bdc
+[2021-10-18 01:46:26] <vinzent2240> involves flash loans
+[2021-10-18 01:51:11] <_dfranco> question on searchers toolkit....seems like alchemy doesn't let you stream/search pending tx. What do people use? Blockchair looks like good option.
+[2021-10-18 01:55:16] <Deleted> Own node/blocknative/bloxroute or some combo
+--------------------------------------------------------------------------------
+[2022-02-09 12:37:43] <bitquence> i told him this a month ago
+[2022-02-09 12:38:06] <bitquence> and i guess it hurt his ego and then he started getting super pressed bc i proved him wrong
+[2022-02-09 12:38:46] <bitquence> hasan
+[2022-02-09 14:08:59] <swawberry> That's a classic double spend attack
+[2022-02-09 14:09:12] <swawberry> and why you wait for several confirmations
+[2022-02-09 14:17:57] <swawberry> Reorgs happen all the time. The solution is just to wait for several confirmations before accepting the transaction
+[2022-02-09 14:19:10] <Captain> I get it so that's why most exchanges where you can exchange crypto for money have a minimum confirmed blocks after deposit
+[2022-02-09 14:19:18] <swawberry> Yes
+[2022-02-09 14:19:28] <Captain> Amazing
+--------------------------------------------------------------------------------
+[2022-02-20 11:09:29] <inversebrah> is there a reason to use a separate contract for the source of funds?
+[2022-02-20 11:19:40] <yannickcrypto> its not the a phishing mail
+[2022-02-20 11:20:03] <yannickcrypto> the attacker prepared the attack 2 months ago and collected signings somewhere (probably looksrare probably x2y2 idk)
+[2022-02-20 11:34:12] <yannickcrypto> just let them sign a opensea order instead of looksrare/x2y2
+[2022-02-20 11:34:57] <Deleted> no people need to sign a special callback
+[2022-02-20 11:35:38] <Deleted> that callback can transfer all tokens in the user's wallet
+[2022-02-20 11:35:46] <Deleted> it's not a normal listing or offer
+[2022-02-20 11:37:19] <ben6524> so it was the Wyvern contract ? of the fishing mail ?
+[2022-02-20 11:37:38] <Deleted> the hacker created contract 0xa2c0946ad444dccf990394c5cbe019a858a945bd
+[2022-02-20 11:37:51] <Deleted> and let people sign a callback to it
+[2022-02-20 11:53:00] <Deleted> at least he needs to find a way to manipulate the calldata field during signing
+--------------------------------------------------------------------------------
+[2022-02-20 12:15:07] <yannickcrypto> i think it was personalized attack
+[2022-02-20 12:15:18] <yannickcrypto> since there was just 34 victims in probably 30 days of collexcting signs
+[2022-02-20 12:15:22] <JacobVanceMader> Wasnt the guy sending stuff back
+[2022-02-20 12:15:45] <JacobVanceMader> It apparently has been established as a phoshing attack rather than a contract exploit
+[2022-02-20 12:16:05] <JacobVanceMader> Yannick my man good to see you
+[2022-02-20 12:16:25] <breeze.dev> just spent 3 hours writing new code for searcher and forgot what i wrote it for
+[2022-02-20 12:16:30] <breeze.dev> unreal
+[2022-02-20 12:16:41] <JacobVanceMader> Learn me something about this os event
+[2022-02-20 12:17:04] <JacobVanceMader> I happened to look at the address it looked like this guy ran mev bots too
+[2022-02-20 12:18:02] <JacobVanceMader> The contract actually went down on etherscan i found the link on twitter after i sent it to a few friends and one reported they couldnt open it
+[2022-02-20 12:23:14] <Deleted> let me see it I will tell you what it is
+[2022-02-20 12:24:30] <0xdapper> those penguins are cute though
+[2022-02-20 12:31:06] <0xdapper> did you sidetrack to writing some lib and dont know what to do of that lib now
+--------------------------------------------------------------------------------
+[2022-04-06 17:30:04] <parashar> can anyone watch pending txn from flashbots bundle
+[2022-04-06 17:30:22] <parashar> I just got frontrunned while sending a bundle through flashbots
+[2022-04-06 17:42:58] <parashar> nevermind became victim of uncle block attack by fucking ethermine
+[2022-04-06 18:22:18] <valu_> tornado provides a receipt that you can give to tax authorities to prove origin of funds
+--------------------------------------------------------------------------------
+[2022-04-08 21:44:51] <.southernwind> How bad are just in time liquidity attacks and impermanent loss? What’s incentivizing people to still add long term liquidity?
+[2022-04-08 21:46:31] <realkotaryag> My trust wallet seed phrase got hacked
+[2022-04-08 21:46:45] <realkotaryag> Please help me
+[2022-04-08 21:51:42] <crypt0pat> Elaborate?
+[2022-04-08 21:51:46] <breeze.dev> depends on the platform and protocols utilized really but the incentive is always value the attacks are pretty bad that\'s to say if it can be done it will be done but it\'s not defi breaking
+[2022-04-08 22:16:20] <breeze.dev> https://tenor.com/view/redditevilhehegif3562526
+--------------------------------------------------------------------------------
+[2022-04-24 11:20:29] <nullbitx8> anyone know if the livepeer streams from mevday were recorded ?
+[2022-04-24 12:47:13] <Deleted> https://tenor.com/view/narutogif22072927
+[2022-04-24 12:47:27] <yannickcrypto> rip he was arbing for 3 weeks
+[2022-04-24 12:48:39] <Deleted> Fuck that little bitch
+[2022-04-24 12:53:10] <yannickcrypto> wups? xDD
+[2022-04-24 12:58:57] <goobygg> charitable donation on your taxes
+[2022-04-24 12:59:18] <yannickcrypto> he had 0.02 weth too
+[2022-04-24 13:02:28] <simbakombo> can help?
+[2022-04-24 13:05:35] <yannickcrypto> read the last image fren just wait
+[2022-04-24 13:16:43] <yannickcrypto> the attacker steal $1500 but forget $330 usdc?
+--------------------------------------------------------------------------------
+[2022-04-28 04:10:11] <theoreticalphysician> Yo
+[2022-04-28 04:10:21] <theoreticalphysician> How do i broadcast faster on avalanche
+[2022-04-28 04:10:37] <theoreticalphysician> I just wanna hit same block consistently
+[2022-04-28 04:13:03] <0x7ec> subscribe to mempool afaik you need to stake avax to do that
+[2022-04-28 04:13:22] <__reece__> Send a validator some feet pics for access
+[2022-04-28 04:13:38] <theoreticalphysician> Yeah i have validator
+[2022-04-28 04:13:46] <theoreticalphysician> But i still only hit 50%
+[2022-04-28 04:16:22] <theoreticalphysician> Stupid ass gossip
+[2022-04-28 04:16:27] <theoreticalphysician> Bro i just need to frontrun
+[2022-04-28 04:16:27] <0x7ec> write faster code if the competition is faster
+[2022-04-28 04:16:35] <theoreticalphysician> No comp
+[2022-04-28 04:16:38] <theoreticalphysician> I just need to frontrun
+[2022-04-28 04:16:42] <theoreticalphysician> Cant even do that
+[2022-04-28 04:16:52] <theoreticalphysician> Is there anyone doing avax on here?
+[2022-04-28 04:24:52] <0xandor> What type of aws is recommended for searching? Do I really need 4cores and 16GB+?
+[2022-04-28 04:26:55] <0xandor> (Assuming that I am not running node)
+[2022-04-28 04:27:42] <0xandor> I currently got one with the above specs but wonder if it’s an over kill
+[2022-04-28 04:31:18] <0x7ec> a node for eth runs on a raspberry pi. i dont think your bot is much more complex than a eth node
+[2022-04-28 04:33:55] <0xandor> Thanks. Yes I def don’t do anything super complicated or anything that requires a lot of computing and I figured I could probably get better results by running 2 instances with half the capacity I mentioned above
+[2022-04-28 04:35:18] <0xandor> 2core 4gb ram sufficient for a simple keeper for example in your opinion @0x7ec ?
+[2022-04-28 04:36:40] <0x7ec> in aws you pay per hour and these instances are cheap. set up a instance and run some benchmarks or just run your bot and see if the performance is good
+[2022-04-28 04:38:15] <0x7ec> i dont know your code so i can not really give you any other advice on that other than to just try it
+[2022-04-28 04:38:33] <0x7ec> simple stuff might even run on their free instance tier
+[2022-04-28 06:37:44] <goobygg> https://blog.cloudflare.com/15mrpsddosattack/
+[2022-04-28 06:38:07] <goobygg> ^ target was a DeFi project
+[2022-04-28 06:38:20] <serg> the UI?
+[2022-04-28 06:38:58] <goobygg> Seems to have been some sort of shitcoin launchpad
+[2022-04-28 06:39:19] <yannickcrypto> 15million requests sheesh
+[2022-04-28 06:39:56] <chris2_2_2> We got hit by 1000gbps from the Chinese government https://compassmining.io/education/chinagreatcannonminingpool/
+[2022-04-28 06:40:06] <yannickcrypto> ```The attack traffic originated from more than 20,000 bots in 125 countries around the world.```20k bots generated 15m rps? how?
+[2022-04-28 06:57:58] <serg> rqs has to be seen in context of gbps. rqs affects the app layer (server responsiveness) while gbps affects network layer. On single bot level 700 rqs is np
+[2022-04-28 07:02:08] <serg> to take down the webserver backend it is sufficient to issue minimal HTTP GET requests (possibly pointed to a highimpact noncachable route like search etc.) This way traffic is minimal but impact is huge
+[2022-04-28 07:05:55] <serg> on this layer this can be mitigated on the server side (filters loadbalancing rerouting dropping etc.) but on the network layer it is up to the infra provider. Cloudflare is good exactly for that. One of my web2 companies was once targeted by periodic DDoS attacks (an idiot wanted some ransom). We just moved to Cloudflare a few months back Poor kid prob lost a few hundreds
+--------------------------------------------------------------------------------
+[2022-05-06 17:05:16] <moon_surfer> So you think the attacker (0x73f7092510e44915cb177684db7b1f101aeecb8d who did a lot of sandwich attack from what I can see) is also the flashbot provider who submitted the bundle to the miner?
+[2022-05-06 17:05:43] <shunshow> yeah
+[2022-05-06 17:20:05] <moon_surfer> Thank you. There are 2 things which are not clear: 1) How do EthScan recognizes a flashbot block? 2) What incentivize the miner to choose the proposed bundle as is and not play the attacker? There was nearly 30K usd gain here.
+--------------------------------------------------------------------------------
+[2022-06-04 00:17:47] <ripostex> Anyone want to see an impressive frontrun? Here's the hacker (wised up and started sending private txs after the first one): https://etherscan.io/address/0xa6fc351efb6cda62db09d5509fc02d4c4b933eaa
+[2022-06-04 00:19:42] <ripostex> Frontrunner made a contract with specific external functions the victim contract needs to call! Not bad ...
+[2022-06-04 00:27:27] <yannickcrypto> where is the frontrunner
+[2022-06-04 00:28:21] <stalkopat> Damn
+[2022-06-04 00:29:14] <ripostex> afk it's in the top of the failed block
+[2022-06-04 00:29:51] <yannickcrypto> this one?
+[2022-06-04 00:30:05] <ripostex> Yep
+[2022-06-04 00:30:08] <yannickcrypto> nice
+[2022-06-04 00:30:30] <yannickcrypto> i was waiting for a generalized frontrunner that add external call from vic contract too 
+[2022-06-04 00:31:39] <stalkopat> Did it copy the original hackers contract or create a new one on its own?
+[2022-06-04 00:32:20] <stalkopat> I.e. did it copy the hackers contract and just changed state to fit himself of create a contract from scratch and essentially reproduce the exploit just from the template
+[2022-06-04 00:34:39] <yannickcrypto> created a new one
+[2022-06-04 00:35:24] <stalkopat> From scratch? With newly generated bytecode and all that? Damn thats really impressive then
+[2022-06-04 00:35:52] <yannickcrypto> yeah
+[2022-06-04 00:36:09] <stalkopat> Even automatically liquidates the newly gained tokens because the token that got hacked will take a dump lmao
+[2022-06-04 00:36:46] <yannickcrypto> attacker: https://etherscan.io/address/0xa6fc351efb6cda62db09d5509fc02d4c4b933eaa#codefrontrunner: https://etherscan.io/address/0xc9375bfb2efe5af6da9e0cf28688b180b2ceca1f#code
+--------------------------------------------------------------------------------
+[2023-11-01 15:54:35] <greyireland> Today there is a hacker on BSC who specializes in sandwich contract attacks. He has attacked more than 10 robots. Anyone who makes BSC robots can check whether their contracts are attacked and whether their balances are normal.
+--------------------------------------------------------------------------------
+[2023-10-30 20:06:11] <duoxehyon> what
+[2023-10-30 20:06:36] <duoxehyon> i quite mev no more mev for me
+[2023-10-30 20:29:01] <wellgamer789> Bug bounty was common to be 10% recently i'm seeing more cases of payments with 20% at least now they are valuing you not completely disappearing with the money xD
+[2023-10-30 20:30:04] <yannickcrypto> oh ya but it have to be mention this wasnt a casual exploit where u find a bug exploit it and then ask for bug bounty
+[2023-10-30 20:30:25] <yannickcrypto> was a ongoing attack that could not be stopped
+[2023-10-30 20:32:17] <wellgamer789> But even so most victims contact them first and offer 10% more recently i'm seeing cases of peoples paying around 20%
+[2023-10-30 20:32:31] <yannickcrypto> inflation fren
+[2023-10-30 21:06:48] <yannickcrypto> hehe
+[2023-10-30 21:07:08] <yannickcrypto> na
+--------------------------------------------------------------------------------
+[2023-10-28 04:55:08] <yannickcrypto> the attack was amazing planned and accomplished
+[2023-10-28 04:55:11] <yannickcrypto> 10/10
+[2023-10-28 04:58:20] <breeze.dev> disagree
+[2023-10-28 04:58:40] <breeze.dev> mans has $860,000+ in freezable assets
+[2023-10-28 04:59:38] <seesoftware> atlest use DAI
+[2023-10-28 04:59:43] <seesoftware> if u want stable
+[2023-10-28 04:59:47] <seesoftware> is non blacklistable i think
+[2023-10-28 05:02:10] <yannickcrypto> who is this
+[2023-10-28 05:03:25] <yannickcrypto> why should he care?
+[2023-10-28 05:03:32] <yannickcrypto> and what have this to do with the snipe?
+[2023-10-28 05:03:37] <breeze.dev> was from the message you replied to but apparently its deleted
+[2023-10-28 05:03:46] <yannickcrypto> the snipe itself was PERFECT planned and accomplished
+[2023-10-28 05:04:02] <yannickcrypto> what msg
+[2023-10-28 05:04:10] <yannickcrypto> secure?
+[2023-10-28 05:04:15] <yannickcrypto> why should he get blacklisted
+[2023-10-28 05:04:28] <breeze.dev> whatever that was
+[2023-10-28 05:04:46] <yannickcrypto> he said he made 3m profit with this snipe
+[2023-10-28 05:04:59] <yannickcrypto> should i block shiro hmm
+[2023-10-28 05:05:20] <yannickcrypto> thats why 
+[2023-10-28 05:05:35] <yannickcrypto> could not find a better word
+[2023-10-28 05:05:38] <yannickcrypto> the operation
+[2023-10-28 05:05:46] <seesoftware> better safe than sorry
+[2023-10-28 05:05:50] <seesoftware> who knows
+[2023-10-28 05:06:01] <breeze.dev> the highly profitable trading strategy
+[2023-10-28 05:06:08] <yannickcrypto> so buying a token gets you blacklisted?
+[2023-10-28 05:06:14] <breeze.dev> not what I said was talking about in your context of it being an attack
+[2023-10-28 05:06:17] <seesoftware> no but noone should trust usdt
+[2023-10-28 05:06:26] <yannickcrypto> my sandwichbot profits was in USDT
+[2023-10-28 05:06:33] <yannickcrypto> https://tenor.com/view/dogsweatwipegif11284331
+[2023-10-28 05:06:45] <yannickcrypto> oh ya bad wording sorry fren
+[2023-10-28 05:06:46] <seesoftware> usdt etc is just on/offramp currency
+[2023-10-28 05:06:51] <seesoftware> why have dollar in crypto
+[2023-10-28 05:07:01] <yannickcrypto> for quick funds
+[2023-10-28 05:07:04] <breeze.dev> because dollar is king
+[2023-10-28 05:07:17] <yannickcrypto> half of top 5 exchanges banned me
+[2023-10-28 05:07:29] <yannickcrypto> its problematic for me to swap funds from bank to crypto
+[2023-10-28 05:07:46] <breeze.dev> make crypto your bank
+[2023-10-28 05:07:54] <yannickcrypto> how to pay for food
+[2023-10-28 05:08:14] <breeze.dev> https://bitpay.com/blog/payforubereatsdoordashwithcrypto/
+[2023-10-28 05:08:22] <breeze.dev>  :cheer:
+[2023-10-28 05:21:08] <shunshow> How did he get the signatures? @YannickCrypto
+[2023-10-28 05:21:45] <shunshow> Seems like bad design on gnosis if anyone can execute your tx
+[2023-10-28 05:22:04] <yannickcrypto> https://tenor.com/view/catstareangrycatfunnycatmemesgif14595486679217135725
+[2023-10-28 05:22:44] <shunshow> His cat typed them on his keyboard gotcha
+[2023-10-28 05:23:00] <seesoftware> Yannicks Cat
+[2023-10-28 05:23:01] <yannickcrypto> idk exactly
+[2023-10-28 05:23:12] <yannickcrypto> its on the gnosis chain?
+[2023-10-28 05:23:46] <shunshow> I have to admit he was really big brain there but damn 90% of the supply scoop that's no chill
+[2023-10-28 05:26:01] <yannickcrypto> when you sign the transaction it is stored somewhere
+[2023-10-28 05:26:03] <yannickcrypto> offchain
+[2023-10-28 05:44:59] <ripostex> https://tenor.com/view/catboatbuypurchasememegif12925151
+[2023-10-28 05:46:19] <yannickcrypto> https://tenor.com/view/catmilkmilkygif26032502
+--------------------------------------------------------------------------------
+[2023-09-24 00:29:36] <.thecoincollector> Hello so my wallet got attacked with a sweeper bot. Most of my funds are gone but the hacker didnt get some of the staked tokens.. Can anyone help me write a script of my own to transfer the tokens once they unstake? Thanks for any help.
+[2023-09-24 00:29:48] <yannickcrypto> #whitehattokenrescueservice
+[2023-09-24 00:30:41] <.thecoincollector> Is this legit? I got contacted by some people that turned out to be scammers
+[2023-09-24 00:33:38] <yannickcrypto> the 1k usd limit is that not every $50 jeet try to get rescue service
+[2023-09-24 00:33:59] <.thecoincollector> oh okay thanks
+--------------------------------------------------------------------------------
+[2023-09-15 12:16:18] <saudxinu> Someone reached out to me to help optimize some code I read the code and told them what are the bottlenecks and optimised the code.Never heard back. They MEV'ed me.Didn't even get a sandwich in return.
+[2023-09-15 17:51:33] <hrdrhh_98927> mann I\'m sending a simple approve() through send_private_tx() paying like 4x more gas than I should and still {"status":"FAILED","hash":"0x6c11fe99c8bbc3d1aa41a00808169ff649e568162bf1afcd15ad171fd0d8303a","maxBlockNumber":18140832,"transaction":{"from":"","to":"","gasLimit":"","maxFeePerGas":"","maxPriorityFeePerGas":"","nonce":"","value":""},"fastMode":false,"seenInMempool":false} 
+[2023-09-15 18:02:21] <brmm> I assume there's a minimal gas usage limit and approve does not spend enough
+[2023-09-15 18:31:24] <hrdrhh_98927> I mean I was trying to run my arbs paying 4x gas (losing money) but all my tx's were failing. Now I only settle for having an INCLUDED tx  I have tried to do an approve with uint256.max()  1 (it spends more gas about 40000 tx hash: 0x4196120bf7e0b37470661e989e7ad1a27a9725ac0836c3302268c9064148c316) but nothing
+[2023-09-15 19:34:55] <biszerry> Please how can I apply Flashbots to my Metamask wallet. It is under a sweeper bot/script attack
+[2023-09-15 19:36:06] <biszerry> Okay. Thanks
+[2023-09-15 19:38:03] <vinzent2240> I'd think an approval from 0 to nonzero should be like 45k gas or so on a super basic token not entirely sure what the minimum required is though
+--------------------------------------------------------------------------------
+[2023-08-02 13:59:55] <.araqi> This is an attack using the vyper vulnerability not arbitrage.
+[2023-08-02 14:05:14] <nervoir> Let’s dub this technical arbitrage. Goes well with the bs white hat nomenclature crypto has adopted.
+[2023-08-02 14:06:26] <nervoir> Technical debt liquidations?
+[2023-08-02 14:10:25] <shunshow> Pretty sure it\'s just to scam people that end up DM ing her with the shit arbitrage solidity contracts or it\'s just a straight npc
+[2023-08-02 14:10:36] <shunshow> Study step 2 better tho!
+[2023-08-02 14:12:48] <shunshow> Ah no just look like a straight npc
+[2023-08-02 14:26:33] <ripostex> Not quite no reentrancy here but was certainly not a straightforward arb as claimed
+[2023-08-02 14:36:53] <seesoftware> Study step 2 better than most people
+[2023-08-02 15:19:25] <ripostex> https://twitter.com/MevRefund/status/1686637299302363136?s=20
+[2023-08-02 15:19:34] <ripostex> Got in one more ding at Trust. Feels good man
+--------------------------------------------------------------------------------
+[2021-07-23 08:14:40] <bombardier> Hey guys do you see the THORChain hacker using Flashbots or some type of relay similar
+[2021-07-23 08:15:38] <bertcmiller> https://etherscan.io/txs?block=12878653&amp;p=1
+[2021-07-23 08:15:41] <bertcmiller> what a block that is
+[2021-07-23 08:15:46] <bombardier> https://flashbotsexplorer.marto.lol/?block=12878653
+[2021-07-23 08:16:27] <breeze.dev> I was just about to say that he practically filled it up
+[2021-07-23 08:17:12] <bombardier> And he left a message XD
+[2021-07-23 08:18:07] <bertcmiller> what's going on in this anyway?
+[2021-07-23 08:18:22] <bombardier> A hack
+[2021-07-23 08:18:31] <bertcmiller> yes but the details of that
+[2021-07-23 08:19:21] <bombardier> I think he drained the pools from the new swap system they implemented
+[2021-07-23 08:22:53] <bombardier> Humble hacker? 
+[2021-07-23 08:23:01] <bombardier> https://etherscan.io/tx/0x9db403ad39d3fe78de378af0b49f03d244326662f7fee230db87d12a624f564b
+[2021-07-23 08:29:24] <code0x2> https://discord.com/channels/755466764501909692/802054563439444010/867883888628727819
+[2021-07-23 08:29:50] <bertcmiller> biggest bundle of all time
+[2021-07-23 08:29:55] <bertcmiller> in terms of gas
+[2021-07-23 08:30:05] <code0x2> the dude pretty much made a full block
+[2021-07-23 08:30:05] <code0x2> wow
+[2021-07-23 08:30:11] <bombardier> he almost use the full block
+[2021-07-23 08:31:31] <breeze.dev> in b4 this is why MEV is bad
+[2021-07-23 08:31:52] <bombardier> Someone reorg this
+[2021-07-23 08:32:04] <bombardier>  
+[2021-07-23 08:32:47] <code0x2> well you cant really blame mev
+[2021-07-23 08:32:55] <code0x2> just regular bad devs that left a hole
+[2021-07-23 08:33:15] <code0x2> it gets worse on sidechains too
+[2021-07-23 08:34:23] <bombardier> BSC almost everyday get hacks 
+[2021-07-23 08:34:28] <bombardier> They dont need MEV to hack this protocols
+[2021-07-23 08:37:03] <Deleted> they had 100eth sitting around for 220 days from tornado https://etherscan.io/tx/0x4e46d756dabfa78f0ec6fea3732d493fead71c88cd4ac29f26a29006e816ed31/advanced
+[2021-07-23 08:37:31] <Deleted> let me just earmark 200k for some future hack
+[2021-07-23 08:38:32] <bombardier> 100 ether here 100 ether there small change in the pocket
+[2021-07-23 08:54:24] <benchainsight> i can't find this anywhere in the docs
+[2021-07-23 08:55:32] <bombardier> the signed one of the oracle and the one you sign with your wallet
+[2021-07-23 09:07:12] <0xalcibiades> What can't you find how to backrun an oracle update 
+[2021-07-23 09:34:36] <Deleted> full block proposals are here sooner than you'd think!
+[2021-07-23 09:41:25] <breeze.dev> eth doing the daz
+--------------------------------------------------------------------------------
+[2022-10-27 15:30:11] <optimcoder> Are you arogant?
+[2022-10-27 17:28:36] <xxxxxxxxxxxxn> im not agretor
+[2022-10-27 17:49:37] <0xams> there was an exploit 1h ago on team finance https://etherscan.io/tx/0xb2e3ea72d353da43a2ac9a8f1670fd16463ab370e563b9b5b26119b2601277ce
+--------------------------------------------------------------------------------
+[2022-10-27 22:01:00] <duoxehyon> https://tenor.com/view/cuhguhbuhgif26372267
+[2022-10-27 22:29:51] <ripostex> The vulture strikes again: https://etherscan.io/tx/0x8cf0b006e03390b310decad7bdb1249b8289a1332b34c5bea2f2ddd6695013cd
+[2022-10-27 22:34:10] <ripostex> Kind of want to hack his contract for some sweet karmic justice but just too lazy to handle decompiling
+[2022-10-27 22:34:15] <duoxehyon> wow 800k?
+[2022-10-27 22:34:23] <ripostex> Nah low liquidity shitcoins
+[2022-10-27 22:34:28] <duoxehyon> rip
+[2022-10-27 22:34:29] <ripostex> Think it's like 10 Eth or something
+[2022-10-27 22:34:40] <duoxehyon> still somethin
+[2022-10-27 22:35:01] <ripostex> The team finance hacker made quite a bit more
+[2022-10-27 22:38:41] <breeze.dev> https://tenor.com/view/drakegoingsneakyspyspyinggif18106742
+[2022-10-27 22:39:00] <ripostex> smithbot confirmed
+[2022-10-27 22:41:02] <breeze.dev> denied
+[2022-10-27 22:44:34] <ripostex> team finance hacker then?
+[2022-10-27 22:45:11] <scut1915> prickly
+--------------------------------------------------------------------------------
+[2022-10-28 22:10:06] <SiegeRhino> how do you guys spend so much time on this discord yet get anything done
+[2022-10-28 22:10:23] <SiegeRhino> it's a dilemma cuz there is sometimes alpha here 
+[2022-10-28 22:16:03] <0xams> u posted smithbot tx https://etherscan.io/txs?a=0x000000000002e33d9a86567c6dfe6d92f6777d1e
+[2022-10-28 22:20:08] <ripostex> Who said I get anything done anymore 
+[2022-10-28 22:20:37] <ripostex> Correct he's not the team Finance hacker afaik
+[2022-10-28 22:24:06] <0xams> yes ok. Maybe it's a confusion. No i don't care about smithbot. I care about Tsuka. Team finance. So can you do anything about that ?
+[2022-10-28 22:27:48] <stalkopat> Just be on dead chains and test in production
+[2022-10-28 22:27:58] <stalkopat> easy 20 minute breaks till anything happens on chain
+[2022-10-28 22:28:06] <stalkopat> so called long shorttail
+--------------------------------------------------------------------------------
+[2021-11-30 22:06:43] <ripostex> Hack? https://etherscan.io/tx/0x9f14d093a2349de08f02fc0fb018dadb449351d0cdb7d0738ff69cc6fef5f299
+[2021-11-30 22:11:19] <ripostex> Yep profits here: https://etherscan.io/address/0x8f6a86f3ab015f4d03ddb13abb02710e6d7ab31b
+[2021-11-30 22:16:12] <Deleted> which platform?
+[2021-11-30 22:17:24] <Deleted> monox.finance?
+[2021-11-30 22:17:41] <ripostex> Looks like it
+[2021-11-30 22:21:40] <adamb0123> Where does one even discover these platforms
+[2021-11-30 22:21:59] <adamb0123> I would love to do some security “research”
+[2021-11-30 22:23:03] <shunshow> It has lots of twitter follows even though probably lots of bots like all of them ahah
+[2021-11-30 22:23:06] <adamb0123> There seems to be a long tail of DeFi platforms that have fewer eyes on them
+[2021-12-01 00:26:21] <jaytheprodigy16> haha wow thats hilarious
+[2021-12-01 00:28:33] <thal0x> i'll preface this by saying i don't use flashbots but for the sake of helping you..i'm pretty sure you included it in the same way you include your own transaction
+[2021-12-01 00:50:06] <Deleted> yeah I don't let anybody include my txns unless they say please first 
+--------------------------------------------------------------------------------
+[2023-10-31 15:30:17] <yannickcrypto> panicked
+[2023-10-31 15:30:20] <yannickcrypto> he just sold a token
+[2023-10-31 15:37:19] <bengra> Wouldnt this one mean that Unibots private keys are leaked too? https://twitter.com/0xSleuth_/status/1719230038288056745
+--------------------------------------------------------------------------------
+[2023-10-31 13:12:37] <yannickcrypto> rip unibnot
+[2023-10-31 13:15:04] <yannickcrypto> same exploit as maestro
+[2023-10-31 13:18:56] <cry1> looks like
+[2023-10-31 13:19:04] <cry1> you can just transfer anyones tokens what
+[2023-10-31 13:21:36] <yannickcrypto> https://vxtwitter.com/YannickCrypto/status/1719223012535214225
+[2023-10-31 13:22:05] <cry1> but whats point of all the calldata
+[2023-10-31 13:22:17] <yannickcrypto> how else devs gonna drain the user?
+[2023-10-31 13:22:23] <cry1> no im saying
+[2023-10-31 13:22:33] <cry1> 0xb2b funcwhats rest of the shit for
+[2023-10-31 13:22:40] <cry1> maestro was like braindead af
+[2023-10-31 13:23:45] <yannickcrypto> its for swaps 
+[2023-10-31 13:25:49] <cry1> blud is trying everything possible to sell these tism tokens
+[2023-10-31 13:26:10] <larrycooperman> same hacker @YannickCrypto ?
+[2023-10-31 13:26:17] <larrycooperman> or just same explt?
+[2023-10-31 13:27:21] <yannickcrypto> nearly same exploit
+[2023-10-31 13:30:44] <larrycooperman> unibot dev probably sleeping
+[2023-10-31 13:30:53] <yannickcrypto> they cant do anything
+[2023-10-31 13:30:54] <larrycooperman> https://tenor.com/view/dogsleepdogsleepingwgoofysleepingsoundgif5498863985254423453
+[2023-10-31 13:30:56] <yannickcrypto> its immutable
+[2023-10-31 13:31:01] <cry1> https://fxtwitter.com/TeamUnibot/status/1716966543610003723?s=20 6 days ago
+[2023-10-31 13:31:06] <larrycooperman> stop the node what do you mean
+[2023-10-31 13:31:10] <yannickcrypto> lmeow
+[2023-10-31 13:31:14] <yannickcrypto> what node?
+[2023-10-31 13:31:28] <cry1> master node bro pause the block chain
+[2023-10-31 13:31:38] <yannickcrypto> HALT TRADING
+[2023-10-31 13:31:43] <larrycooperman> can't they revoke approvals directly to their contract
+[2023-10-31 13:31:51] <yannickcrypto> the user? yes
+[2023-10-31 13:31:54] <yannickcrypto> read my tweet fren
+[2023-10-31 13:32:10] <larrycooperman> oh yeah just realized
+[2023-10-31 13:32:13] <larrycooperman> this is fucked...
+[2023-10-31 13:32:42] <cry1> so ya this guy is just feeding the router data is if hes buying but instead of buy hes just calling transfer. Why tf would they let you input arbitrary data
+[2023-10-31 13:33:01] <cry1> unibot dev when asked if he audited contract before deploying
+[2023-10-31 13:33:03] <cry1> https://media.discordapp.net/attachments/717110495160827907/1168766740059136040/ezgif3e609a3ed04.gif?ex=6552f5d9&amp;is=654080d9&amp;hm=2904299cf07d42c30ce2ca81b82400720652057a86a6f89745bda11a5f5a349f&amp;
+[2023-10-31 13:33:40] <larrycooperman> I was thinking if they should actually stop trading so users should not trade at all imbeciles will actually avoid all of this drama thinking everything will be okay
+[2023-10-31 13:34:03] <cry1> they cant stop trading
+[2023-10-31 13:34:17] <larrycooperman> why can't they?
+[2023-10-31 13:35:06] <cry1> what function are you seeing that pauses the contract
+[2023-10-31 13:35:26] <larrycooperman> you don't pause the contract you just pause calls to it
+[2023-10-31 13:35:57] <cry1> how?
+[2023-10-31 13:36:33] <larrycooperman> pm2 stop telegrambot.js?
+[2023-10-31 13:36:49] <cry1> ye unfortunately that doesnt pm2 stop blockchain
+[2023-10-31 13:37:02] <larrycooperman> Yes but average user doesn't know how to call a contract
+[2023-10-31 13:37:39] <larrycooperman> stop trading tell everyone to revoke access to their contract.
+[2023-10-31 13:37:43] <cry1> at least this guy figured out you need to pull the tokens first and th en sell them instead of doing it on the go
+--------------------------------------------------------------------------------
+[2023-04-10 01:52:40] <yannickcrypto> @breeze btw what’s about the 10 other chains with the same vulnerability and even more victims?
+[2023-04-10 02:28:24] <yannickcrypto> yes just not the contract that was deployed 45 days ago
+[2023-04-10 02:50:41] <yannickcrypto> yeah
+[2023-04-10 02:51:20] <yannickcrypto> &lt;https://github.com/AnishAgnihotri/sushiswapexploit/blob/main/src/CounterExploit.sol&gt;
+[2023-04-10 02:56:24] <yannickcrypto> first you call processRoute that calls swapUniV3 and that set your contract to lastCalledPool then call swap of pool (your contract) and this calls the callback with the safeTransferFrom
+[2023-04-10 02:57:42] <vinzent2240> wonder what it'd be like if he saved 10 eth instead and took a victory lap
+[2023-04-10 02:58:39] <yannickcrypto> i wonder who wrote this code lol
+[2023-04-10 02:59:09] <vinzent2240> the moral of the story here is to watch every single approval event and read every contract one by one filtering them out as you finish reading
+[2023-04-10 02:59:29] <josiahbartlet> Why does it keep track of the last pool?
+[2023-04-10 03:00:05] <yannickcrypto> that you dont call uniswapv3Callback and just drain funds
+[2023-04-10 03:04:17] <yannickcrypto> but the problem is that the pool you set is a malicious pool and not a real pool
+[2023-04-10 03:11:49] <breeze.dev> its a disaster
+[2023-04-10 03:12:44] <nervoir> Looks like zellic is on their retainer. Very disappointing if they audited this.
+[2023-04-10 03:13:05] <yannickcrypto> is it known how much exactly was stolen?
+[2023-04-10 03:15:32] <breeze.dev> haven't heard anything forward publicly yet but judging by the amount of randoms complaining on twitter I'd wager a decent amount
+[2023-04-10 03:15:36] <breeze.dev> https://twitter.com/nftsupply/status/1644933875146129410
+[2023-04-10 03:16:32] <seesoftware> so many exploits in a row
+[2023-04-10 03:16:38] <seesoftware> in short time
+[2023-04-10 03:16:51] <nervoir> In a row 
+[2023-04-10 03:16:53] <breeze.dev> I guess we can get all the approvals on the contract and subtract post transfers to get an idea
+[2023-04-10 03:17:44] <breeze.dev> seems to be ongoing issue
+[2023-04-10 03:19:47] <yannickcrypto> pretty sure
+[2023-04-10 03:20:13] <yannickcrypto> they could just used uniswaps new permit contract
+[2023-04-10 03:20:26] <yannickcrypto> but they prefer to rent some fiverr rando without experience
+[2023-04-10 03:21:21] <yannickcrypto> would like to do some deep analyse but im in holidays rn 
+[2023-04-10 03:34:26] <yannickcrypto> ```0x520bc1614e62d0beca7cbd8fb6c9cdd2a7f4f2a10x36c1eba39cb0ffcef9da4a087e6a113a0deed3b20x53889d7e68eb2f053d5fea92c2a1923c536a9ba40x74ebb8e8d0b0cc65f06040eb0f77b5da0e33ffee0x1dbe8404baf4bab622ae02d3b765eb2c31cba17d0xf9a001d5b2c7c5e45693b41fcf931b94e680cac40x1c64f66fe781bc9a9d4ade22c34c8225640c1fc10xd25f66a14f453d7eaa48fb4a2f55ec5eca1f218f0xd050e0a4838d74769228b49dff97241b4ef3805d0xfb3e62b5ac5c843454ce73c31b83ca991417c86b0xb1c6544d837c99f2b9b0cd1578bbda6abb6855c90x000000000000be0ab658f92dddac29d6df19a3be0x15be2b87489c3c36e4c25c1b1d70e95baf7751fb0xde2a50fe5ce04e2a91a6c5c5a52fa5dd362f2388```
+[2023-04-10 03:34:40] <breeze.dev> https://tenor.com/view/markcubansharktanknotestakingnotesremembergif15073512
+[2023-04-10 03:34:46] <69_will> where
+[2023-04-10 03:35:27] <yannickcrypto> in frankfurt not realy a holiday just to relax
+[2023-04-10 03:35:35] <yannickcrypto> this all contracts that called the exploit
+[2023-04-10 03:36:00] <yannickcrypto> https://etherscan.io/address/0x74ebb8e8d0b0cc65f06040eb0f77b5da0e33ffee $26k
+[2023-04-10 03:40:02] <yannickcrypto> https://etherscan.io/address/0x86e1b47257fcbed66debae5e87273707e9979e55#tokentxns $70k already swapped it away
+[2023-04-10 03:40:29] <yannickcrypto> thats it? damn
+[2023-04-10 03:40:30] <breeze.dev> 0x000000000000be0ab658f92dddac29d6df19a3be used yoink selector?
+[2023-04-10 03:40:42] <yannickcrypto> copycat i would say
+[2023-04-10 03:40:59] <yannickcrypto> $100k from 1020 victims$3m from sifu
+[2023-04-10 03:41:12] <yannickcrypto> would have expect more dmg
+[2023-04-10 03:41:22] <yannickcrypto> atleast $10m+
+[2023-04-10 03:43:10] <breeze.dev> same
+[2023-04-10 03:43:14] <breeze.dev> hmm
+[2023-04-10 03:45:20] <yannickcrypto> probably some juicy wallets awaiting fren?
+[2023-04-10 03:48:50] <optimcoder> damnnn 70%win beaverbuild today
+[2023-04-10 03:49:17] <yannickcrypto> das not good isnt it?
+[2023-04-10 03:50:14] <optimcoder> i like variations not only one to win so much
+[2023-04-10 03:52:44] <yannickcrypto> he exploiter another 10k on BSC
+[2023-04-10 03:53:31] <yannickcrypto> 10 blockchains had it
+[2023-04-10 03:54:10] <yannickcrypto> and our security auditor just tried to drain sifu on ETH and after he got withdrawn and there wasnt much to take he collected his twitter clout
+[2023-04-10 03:54:16] <yannickcrypto> and gave a fuck to the other victims
+[2023-04-10 03:55:58] <yannickcrypto> uhh
+[2023-04-10 03:56:55] <yannickcrypto> &lt;https://bscscan.com/address/0xd75f5369724b513b497101fb15211160c1d96550&gt;
+[2023-04-10 03:59:29] <yannickcrypto> damn
+[2023-04-10 03:59:38] <yannickcrypto> just found someone with $2.5k tokens at risk
+[2023-04-10 04:00:02] <yannickcrypto> with manually search lol
+[2023-04-10 04:00:27] <yannickcrypto> i cant with my actual setup
+[2023-04-10 04:02:05] <seesoftware> recursively rescure 90% funds by sending him the 90% back and exploiting for 90% again
+[2023-04-10 04:02:45] <yannickcrypto> thats an amazing idea 
+[2023-04-10 04:02:56] <yannickcrypto> repeat until you hold 99% of the funds
+[2023-04-10 04:03:51] <seesoftware> how to legally steal 
+[2023-04-10 04:09:33] <optimcoder> washing machine
+[2023-04-10 04:10:44] <yannickcrypto> time for my dinner
+[2023-04-10 04:20:48] <69_will> https://tenor.com/view/catcuteburgerburgercatcatburgergif25078813
+--------------------------------------------------------------------------------
+[2023-03-13 18:24:04] <banda8> anyone know if it was oracle exploit? would be pretty hard to do on something like dai/eth/wbtc or whatever collat he took
+[2023-03-13 18:35:17] <ripostex> I don't think so. Looks like he's liquidating himself
+[2023-03-13 18:41:48] <ipsilon.eth> he took a loan with one contract donated a part of the loan to the reserves and liquidated himself with another contract
+[2023-03-13 18:43:27] <ipsilon.eth> i think that the donation somehow throws off eulers exchange rates and leads to a toobig liquidation bounty
+[2023-03-13 18:43:54] <ipsilon.eth> but im sure there are some twitter threads already from somebody who figured it out
+[2023-03-13 18:43:58] <ripostex> Yeah the donation is def the part that stands out. Too lazy to look further
+[2023-03-13 18:48:45] <ipsilon.eth> yeah me too. but im sorry for the euler finance guys its a nice project
+[2023-03-13 18:48:57] <nervoir> He’s holding 174 million in one address and 8 in another
+[2023-03-13 18:49:14] <nervoir> So he haul has to be a lot bigger than 8 million
+[2023-03-13 18:51:33] <duoxehyon> He used fixed float?
+[2023-03-13 18:51:55] <caravaggio> fixed float is 100% a fed prop
+[2023-03-13 18:51:58] <caravaggio> cant tell me otherwise
+[2023-03-13 18:52:08] <duoxehyon> Well jail time comming soon for that guy
+[2023-03-13 18:52:16] <duoxehyon> Its too easy to track
+[2023-03-13 18:52:26] <caravaggio> yep
+[2023-03-13 18:52:51] <caravaggio> its very easy to track crypto having a tornado cash tx is also bad
+[2023-03-13 18:53:59] <duoxehyon> How are people still hacking such amounts knowing its useless? If he even tries to withdraw its game over
+[2023-03-13 18:54:14] <duoxehyon> Unless ur from north Korea
+[2023-03-13 18:54:20] <stalkopat> you could return it and get a nice 17M
+[2023-03-13 18:54:24] <caravaggio> alot of ppl dont get caught
+[2023-03-13 18:54:25] <stalkopat> (probably)
+[2023-03-13 18:54:46] <duoxehyon> I don't think so mango guy still got arrested
+[2023-03-13 18:54:48] <stalkopat> Otherwise it becomes a normal laundering scheme not like 170M is out of the ordinary in terms of money laundering
+[2023-03-13 18:55:10] <ripostex> Well just don't brag about it on Twitter
+[2023-03-13 18:55:22] <stalkopat> You could probably withdraw a mil or two a year via a KYC cex and no one bats an eye (assuming you went through nado)
+[2023-03-13 18:55:45] <caravaggio> still when u file ur tax report if ur country is comptent the nado tx will look sus
+[2023-03-13 18:55:50] <fbslo> https://twitter.com/nomorebear/status/1635230621856600064
+[2023-03-13 18:55:56] <caravaggio> only bad thing about crypto lol
+[2023-03-13 18:56:08] <stalkopat> You think the tax office cares where the money came from? lol
+[2023-03-13 18:56:12] <caravaggio> need a good alibi
+[2023-03-13 18:56:15] <stalkopat> they only care that you pay taxes on it
+[2023-03-13 18:56:19] <caravaggio> true some do ask tho
+[2023-03-13 18:56:24] <stalkopat> They tell thiefs and drug dealers to declare their shady income
+[2023-03-13 18:56:29] <stalkopat> They don't give a shit
+[2023-03-13 18:57:09] <caravaggio> lol true
+[2023-03-13 18:57:26] <caravaggio> but crypto makes it easy to audit years later  compared to say drugs or other shady stuff
+[2023-03-13 18:57:39] <erayack> What is difference Euler and other lending/borrowing protocols?
+[2023-03-13 18:57:54] <yannickcrypto> the name
+[2023-03-13 18:58:05] <duoxehyon> Exactly
+[2023-03-13 18:58:21] <duoxehyon> also vulnerable
+[2023-03-13 18:58:26] <erayack> Ahahah
+[2023-03-13 18:58:31] <caravaggio> i wonder what will happen to the mango markets guy
+[2023-03-13 18:59:28] <yannickcrypto> yeah would have never expected them to get hacked
+[2023-03-13 18:59:55] <ripostex> Did they have a bug bounty?
+[2023-03-13 19:00:00] <erayack> I've been seeing a lot on Twitter lately but I didn't quite understand what is
+[2023-03-13 19:00:28] <shunshow> Rip
+[2023-03-13 19:00:39] <shunshow> 7 figures or go home
+[2023-03-13 19:00:45] <erayack> I hope the hacker doesn’t live in uk
+[2023-03-13 19:01:22] <duoxehyon> Brah&lt;https://etherscan.io/tx/0x5975c3b885fd9f03cac24a10aba1fef0188744233ff413fd51b0a5e70bff55f6&gt;
+[2023-03-13 19:01:25] <yannickcrypto> 8figs
+[2023-03-13 19:01:48] <yannickcrypto> is this u
+[2023-03-13 19:01:58] <duoxehyon> No the hacker
+[2023-03-13 19:02:02] <yannickcrypto> no you
+[2023-03-13 19:02:10] <duoxehyon> Failed to withdraw
+[2023-03-13 19:02:23] <duoxehyon> And tried to selfdestruct with 8 milli in contract
+[2023-03-13 19:02:28] <shunshow> Lol at least he tried 
+[2023-03-13 19:02:37] <yannickcrypto> its not the hacker
+[2023-03-13 19:02:42] <yannickcrypto> thats not the hacker?
+[2023-03-13 19:02:46] <shunshow> No it's not
+[2023-03-13 19:02:52] <shunshow> But it's funny someone tries
+[2023-03-13 19:02:59] <duoxehyon> oh lol
+[2023-03-13 19:03:02] <yannickcrypto> yeah
+[2023-03-13 19:04:17] <shunshow> These hackers should really audit their hack contract  code4rena would have never let this typo slip!!
+[2023-03-13 19:04:43] <ripostex> Surprised there's not more onchain begging yet
+[2023-03-13 19:05:01] <yannickcrypto> fee is high fren
+[2023-03-13 19:05:07] <stalkopat> Has any one of those beggars actually seen a cent yet?
+[2023-03-13 19:05:22] <shunshow> The first one got like 100k or some shit
+[2023-03-13 19:05:24] <yannickcrypto> for pajeets is high
+[2023-03-13 19:05:37] <ipsilon.eth> i think the address is funded by tornado?
+[2023-03-13 19:05:49] <stalkopat> Oh damn
+[2023-03-13 19:05:50] <duoxehyon> it also has a fixedfloat deposit
+[2023-03-13 19:05:51] <ripostex> Didn't someone get paid 1.337 Eth or something a while back
+[2023-03-13 19:06:02] <shunshow> That's what started the trend
+[2023-03-13 19:06:41] <ripostex> https://etherscan.io/tx/0x39d9d5a47870f469efff0bee54452e9d516cc15831aaab50f7f837ecf2353d46
+[2023-03-13 19:06:45] <ripostex> What does this even mean?
+[2023-03-13 19:06:54] <ripostex> god damn it yannick
+[2023-03-13 19:06:59] <yannickcrypto> i sandwiched you
+[2023-03-13 19:08:05] <caravaggio> why is he trying to self destruct? i dont get it
+[2023-03-13 19:08:12] <duoxehyon> its not him
+[2023-03-13 19:08:20] <stalkopat> https://etherscan.io/tx/0xe5f87623f1abb45326a6e4a1b9c7a764634905a0b5b1026492c708efee34393a did smithbot also feel free to take 80 cbETH? LOL
+[2023-03-13 19:08:56] <shunshow> It's okay  he is mind blown
+[2023-03-13 19:09:29] <shunshow> Yeah wasn't expecting that
+[2023-03-13 19:09:30] <duoxehyon> lmao
+[2023-03-13 19:09:37] <shunshow> Lol
+[2023-03-13 19:15:06] <icyicy5980> If you live in Russia North Korea Iran and probably some other places you'll be fine
+[2023-03-13 19:17:27] <yannickcrypto> useless? there are tons of p2p trader where i can cash out millions per month in cash
+[2023-03-13 19:18:11] <duoxehyon> https://tenor.com/view/kanyesussykurrcogif23831501
+[2023-03-13 19:18:22] <duoxehyon> 100% tax
+[2023-03-13 19:18:31] <shunshow> If I could steal 10M or get a clean 500k bounty I take the 500k everyday
+[2023-03-13 19:19:11] <shunshow> Some people get killed for like 10k cash on them bro
+[2023-03-13 19:19:32] <yannickcrypto> hack 100mwash 100m through tornadocash monero whateverfind some trustworthy p2p sellersell every month 1m5m in cashcreate fake business like stores casinos sportbets offices where you can easy manipulate the billtax ityou rl rich
+[2023-03-13 19:20:30] <shunshow> This works until future IRS AI detects your business as fraudulent with stats
+[2023-03-13 19:20:47] <icyicy5980> It's not that simple to be 100% safe
+[2023-03-13 19:20:51] <yannickcrypto> oh yeah thats why money laundering dont exist... OH WAIT
+[2023-03-13 19:21:48] <duoxehyon> it would've been so easy for this guy to get 2 million bounty and live a happy life
+[2023-03-13 19:22:27] <yannickcrypto> never said its simple but to say thats useless because you cant do it is not right
+[2023-03-13 19:22:30] <standrd> Fair point but a normal person would be filled with a feeling of guilt for the rest of their life at least
+[2023-03-13 19:23:05] <shunshow> Ye dirty money and guilt is the real pain
+[2023-03-13 19:23:19] <caravaggio> they just lie that they care if we were all really guilt poverty wont exist
+[2023-03-13 19:23:36] <caravaggio> https://tenor.com/view/terrificitsruckatrumpamazingilovethisgif19249717
+[2023-03-13 19:23:37] <icyicy5980> If I hacked a ridiculously big amount of money like over 50 millions I'd pick 20 millions for me and give the rest back because more than that is just a burden but I don't think that I'd feel particularly guilty
+[2023-03-13 19:23:56] <standrd> Yes i agree on that
+[2023-03-13 19:24:09] <yannickcrypto> here i give you 30m back and keep your 20m im good guy fren
+[2023-03-13 19:24:22] <yannickcrypto> https://tenor.com/view/blackdogfunnyraeswaegif25767826
+[2023-03-13 19:24:35] <breeze.dev> burden won\'t feel guilty seems like a contradiction of sorts
+[2023-03-13 19:25:41] <icyicy5980> I'm a simple person so money isn't my main concern Just need to be set for life
+[2023-03-13 19:25:47] <breeze.dev> chinese? I'll pass
+[2023-03-13 19:25:55] <breeze.dev> https://tenor.com/view/flaminhotssnackshungrycheetosgif5348651
+[2023-03-13 19:27:40] <caravaggio> https://tenor.com/view/capdoktorcapgif22715858
+[2023-03-13 19:28:29] <breeze.dev> idk who is we because when i see made in china I don\'t buy innit
+[2023-03-13 19:28:58] <caravaggio> or a hans chinese?
+[2023-03-13 19:29:03] <breeze.dev> may I ask do you live in BRICS?
+[2023-03-13 19:33:51] <icyicy5980> Ukraine is lucky to even be a country they didn't really have the choice to give them
+[2023-03-13 19:47:39] <xxxxxxxxxxxxn> I disagree it actually improves production time by a lot once you understand the core features and principles
+[2023-03-13 19:54:40] <duoxehyon> I like traits
+--------------------------------------------------------------------------------
+[2022-10-28 21:14:52] <tinska9650> Hey any tips on calculating optimal 2 hop arbitrage entry size? I improvised my own with pool fee taken into account but I think it’s missing some opportunities
+[2022-10-28 21:16:34] <tinska9650> I’m basically solving getAmountOut(getAmountOut(entrySize xResIn xResOut) yResIn yResOut) == 0 and assuming that maximum point is in the middle
+[2022-10-28 21:16:37] <tinska9650> but is this the case?
+[2022-10-28 21:18:36] <duoxehyon> use paco's math
+[2022-10-28 21:18:46] <ether_trader> Supposedly this was a profanity exploit https://twitter.com/friesdao/status/1585712229067915264
+[2022-10-28 21:19:27] <ether_trader> https://etherscan.io/tx/0xc8d9f3932de4738306ea6aec4e94d6cdd9258c702225589e57ff06d13a1a3b7fBut neither the wallet or contract have vanity address. Inside job?
+[2022-10-28 21:20:17] <tinska9650> link? or any reference
+[2022-10-28 21:20:21] <tinska9650> thx
+[2022-10-28 21:20:24] <duoxehyon> https://github.com/paco0x/ammarbitrageur
+[2022-10-28 21:20:29] <tinska9650> thanx
+[2022-10-28 21:21:47] <tinska9650> it seems to use sqrt :/
+[2022-10-28 21:22:57] <duoxehyon> yea direct calc
+[2022-10-28 21:26:12] <tinska9650> yeah bit slow but I could compare with that
+[2022-10-28 21:28:55] <0xams> why did you say yesterday that you can do it ? do you think that funds related to this hack can be recovered (specifically Tsuka's)
+[2022-10-28 21:31:02] <ripostex> Didn't say I could said it would be funny. Also you're confusing two hacks. Think the one you want is the Team Finance one
+[2022-10-28 21:31:20] <0xams> yes i am looking at team finance hack
+[2022-10-28 21:31:33] <0xams> here is the hacker wallet https://etherscan.io/address/0xba399a2580785a2ded740f5e30ec89fb3e617e6e#tokentxns
+[2022-10-28 21:31:56] <ripostex> Yeah that's not the one we were discussing
+[2022-10-28 21:32:06] <ripostex> Someone else cleaned up their leftovers
+[2022-10-28 21:38:03] <ripostex> Tx was posted above someone else pulled some shitcoins off a contract used by the original exploit
+[2022-10-28 21:38:29] <ripostex> smithbot isn't smart enough to do a real hack 
+[2022-10-28 21:39:13] <boringcat.> ...
+[2022-10-28 21:39:34] <boringcat.> smithbot is in this room
+[2022-10-28 21:40:04] <stalkopat> smithbot isn't real he cant hurt you!
+[2022-10-28 21:40:48] <ripostex> if you're here smithbot rustle some curtains!
+[2022-10-28 21:41:09] <ripostex> Ouija board says:
+[2022-10-28 21:41:11] <ripostex> H
+[2022-10-28 21:41:27] <stalkopat> A
+[2022-10-28 21:44:47] <0xams> u think these are 2 different people ?
+[2022-10-28 21:48:39] <ripostex> Find the tx I originally posted. It's not these
+--------------------------------------------------------------------------------
+[2022-09-20 16:13:26] <inversebrah> Wintermute got hacked
+[2022-09-20 16:27:01] <inversebrah> https://twitter.com/zachxbt/status/1572136997241917440?s=20&amp;t=mGJiZM00gRKZYSgDK9uEw
+[2022-09-20 16:27:59] <pnf> wonder if it was profanity related given wintermutes leading zeroes address. if so unbelievably negligent
+[2022-09-20 16:36:14] <cloudy6356> Yes..looks like this EOA got hacked probably created via profanity https://etherscan.io/txs?a=0x0000000fe6a514a32abdcdfcc076c85243de899b
+[2022-09-20 16:37:24] <pnf> Crazy if it’s that. What is wintermute even doing if they sit on a knowingly vulnerable contract for over a week with 160m usd in it? We are still early if this is the quality of the major players rn in the space
+[2022-09-20 16:40:35] <cloudy6356> The contract was not vulnerable imo...The whitelisted EOA was
+[2022-09-20 16:41:34] <pnf> That’s irrelevant right? If there has been a known security vulnerability for 12 weeks you should know your deployer eoa is vulnerable and you should know your contract can or cannot be drained by that eoa
+[2022-09-20 16:41:58] <pnf> Wintermute dropped the ball big time here
+[2022-09-20 16:43:11] <stalkopat> You assume they were aware that their address got generated via profanity
+[2022-09-20 16:43:28] <pnf> If they weren’t then they dropped the ball even more
+[2022-09-20 16:43:33] <stalkopat> Old address teams churn hard to keep track of a tool once used to generate a vanity address
+[2022-09-20 16:43:49] <stalkopat> They probably switched to inhouse tooling for that stuff ages ago
+[2022-09-20 16:44:04] <cloudy6356> He knew about the vulnerability..
+[2022-09-20 16:44:08] <stalkopat> Probably tough to have that kind of stuff in order in a big company
+[2022-09-20 16:45:02] <pnf> I think you never worked in any big company. Procedures for address generation should have been documented and vetted. If the procedure was not known then the address should have been retired and a known one should have been used
+[2022-09-20 16:45:04] <cloudy6356> Yeah...probably forgot that they used that tool
+[2022-09-20 16:45:22] <pnf> Forgot they used that tool? Are u kidding me haha
+[2022-09-20 16:45:24] <pnf> What is this
+[2022-09-20 16:45:27] <stalkopat> Procedures change dude
+[2022-09-20 16:46:24] <pnf> They are a billion dollar company. Maybe you didn’t have a procedure when you were a small steam but then you institute a process and then rotate all your addresses to one’s post process
+[2022-09-20 16:46:25] <stalkopat> Yo profanity is vulnerable are our EOA\'s save?""Yeah dude have been using inhouse tools for years no worries""Aight then
+[2022-09-20 16:46:52] <pnf> If that’s their process then they need to go to zero and gtfo this space
+[2022-09-20 16:47:12] <stalkopat> They got a 160 mil reminder either way
+[2022-09-20 16:47:32] <stalkopat> If it works for them even with shitty procedures who are you tell them that they should change anything
+[2022-09-20 16:47:39] <pnf> if i recall correctly they also sent like 20m usd of opti tokens to a wrong address.
+[2022-09-20 16:47:46] <pnf> Wouldn’t surprise me if that’s their process
+[2022-09-20 16:47:48] <stalkopat> Unless you are a investor
+[2022-09-20 16:47:57] <stalkopat> In wich case you should rip em up via slack
+[2022-09-20 16:48:12] <pnf> This hurts everyone in the space
+[2022-09-20 16:48:26] <pnf> Makes it harder for institutions to justify participating
+[2022-09-20 17:00:16] <stalkopat> Can't make this shit up
+[2022-09-20 17:01:34] <pnf> Wonder why we never saw beggars materialise live on real crimes i guess the velocity is both higher and lower in the sense that it allows this phenomena
+[2022-09-20 17:06:51] <nervoir> Guess that means they stand some sort of chance of getting it back
+--------------------------------------------------------------------------------
+[2022-08-10 04:41:49] <goobygg> Curve Finance front end is compromised  samczref in #offtopic
+[2022-08-10 04:42:20] <0x7ec> or join us in #general
+[2022-08-10 04:42:58] <eyaleponym> Meaning bundles arrive / pass simulation too late to be included?
+[2022-08-10 04:43:07] <goobygg> I don't check gen chat too often 
+[2022-08-10 04:43:11] <goobygg> Let me hop in there
+[2022-08-10 04:43:20] <vagabond2971> someone should send some tornado eth to the wethusdc uni pool no?
+[2022-08-10 04:44:09] <__reece__> That would be interesting
+[2022-08-10 04:45:14] <0x7ec> it would be a revert? no fallback or receive
+[2022-08-10 04:46:02] <0x7ec> maybe with some extra steps
+[2022-08-10 04:47:09] <ani9040> could tornado in some usdc
+[2022-08-10 04:47:15] <arianonwastaken> nothing a good ol selfdestruct can't solve
+[2022-08-10 04:47:24] <ani9040> or did they already blacklist the tornado addresses?
+[2022-08-10 04:47:31] <arianonwastaken> they did
+[2022-08-10 04:55:49] <bertcmiller> yes
+[2022-08-10 04:56:38] <eyaleponym> Thanks Is there a good way to check for this? The time stamp on the block seems largely irrelevant
+[2022-08-10 04:57:05] <rjected> implementing simple tx exchange w/ akula might not be that hard if u really want to use it
+--------------------------------------------------------------------------------
+[2022-04-21 23:20:12] <neb2114> First I saw EigenPhi. Pretty cool. What is TFIDF?
+[2022-04-21 23:36:27] <0x7ec> beanstalk exploit happend in same block. this created the arb opp https://etherscan.io/tx/0xcd314668aaa9bbfebaf1a0bd2b6553d01dd58899c508d4729fa7311dc5d33ad7
+[2022-04-21 23:40:00] <breeze.dev> had a transaction pending in flashbots
+[2022-04-21 23:40:22] <breeze.dev> switched RPC mindlessly without paying attention  transaction instantly destroyed by the sharks
+[2022-04-21 23:40:40] <breeze.dev> moral of the story? flashbots protects
+[2022-04-21 23:53:08] <breeze.dev> I believe Rob is presenting a talk there
+[2022-04-21 23:56:28] <stalkopat> Indeed is
+[2022-04-21 23:58:31] <breeze.dev> wasn't sure if he's preparing it or he's talking there hope he is
+[2022-04-21 23:59:38] <stalkopat> I wonder what security will be like probably a realistic probability of suffering a wrench attack when going there?
+[2022-04-22 00:00:22] <0x7ec> `10:2010:40 MEV activities across L1s side chains and rollups (Robert Miller)` https://mevday.org/
+[2022-04-22 00:02:34] <stefano573> Sure I was just wondering if someone else will be there
+[2022-04-22 00:03:44] <breeze.dev> sounds like a whole lot of alpha
+[2022-04-22 00:04:10] <breeze.dev> (though you guys should fix an to a mev solution for Why your blockchain needs")
+[2022-04-22 00:05:09] <0x7ec> vitalik is also scheduled btw
+[2022-04-22 00:08:29] <breeze.dev> @Nathan_ too
+[2022-04-22 00:08:31] <breeze.dev> awesome
+[2022-04-22 00:09:04] <breeze.dev> I'm actually more excited than I should be about this lol
+[2022-04-22 00:09:20] <breeze.dev> but this makes everything feel less like a dream it's needed
+--------------------------------------------------------------------------------
+[2021-11-30 22:06:43] <ripostex> Hack? https://etherscan.io/tx/0x9f14d093a2349de08f02fc0fb018dadb449351d0cdb7d0738ff69cc6fef5f299
+[2021-11-30 22:11:19] <ripostex> Yep profits here: https://etherscan.io/address/0x8f6a86f3ab015f4d03ddb13abb02710e6d7ab31b
+[2021-11-30 22:16:12] <Deleted> which platform?
+[2021-11-30 22:17:24] <Deleted> monox.finance?
+[2021-11-30 22:17:41] <ripostex> Looks like it
+[2021-11-30 22:21:40] <adamb0123> Where does one even discover these platforms
+[2021-11-30 22:21:59] <adamb0123> I would love to do some security “research”
+[2021-11-30 22:23:03] <shunshow> It has lots of twitter follows even though probably lots of bots like all of them ahah
+[2021-11-30 22:23:06] <adamb0123> There seems to be a long tail of DeFi platforms that have fewer eyes on them
+[2021-12-01 00:26:21] <jaytheprodigy16> haha wow thats hilarious
+[2021-12-01 00:28:33] <thal0x> i'll preface this by saying i don't use flashbots but for the sake of helping you..i'm pretty sure you included it in the same way you include your own transaction
+[2021-12-01 00:50:06] <Deleted> yeah I don't let anybody include my txns unless they say please first 
+--------------------------------------------------------------------------------
+[2023-02-17 05:55:55] <rainusta> I’m not good at reading that tx was that a hack?
+[2023-02-17 06:00:29] <basketballmood> yeah
+[2023-02-17 06:00:57] <basketballmood> https://twitter.com/spreekaway/status/1626319585040338953
+[2023-02-17 06:03:44] <basketballmood> yea
+[2023-02-17 06:18:49] <nervoir> Might be recoverable but it'd require some investigation and probably collaboration
+--------------------------------------------------------------------------------
+[2023-03-16 21:34:35] <__reece__> Did the guy that got 100eth actually lose 76
+[2023-03-16 21:35:54] <ripostex> That's the real question
+[2023-03-16 21:36:59] <caravaggio> Can they even legally keep the funds?
+[2023-03-16 21:37:19] <caravaggio> I read part of the docs wrong yeah I'll just use their rpc
+[2023-03-16 21:39:44] <__reece__> I knew this would print eventually
+[2023-03-16 21:48:06] <lilacilia> yeah hes got 76 ewsteth
+[2023-03-16 21:48:52] <lilacilia> so now he's up all of a sudden
+[2023-03-16 21:51:52] <shunshow> whats the loss for euler with the hack?
+[2023-03-16 21:53:01] <caravaggio> All together?
+[2023-03-16 21:53:08] <caravaggio> I think like 180 million
+[2023-03-16 21:53:24] <caravaggio> Also customer trust and dead dapp
+[2023-03-16 22:14:44] <salparadi> https://www.youtube.com/watch?v=Gt0xgCCb6TE
+--------------------------------------------------------------------------------
+[2023-04-09 19:03:06] <duoxehyon> sushi hack?
+[2023-04-09 19:03:30] <duoxehyon> yeah their contract is so trash
+[2023-04-09 19:04:50] <duoxehyon> brah
+[2023-04-09 19:08:35] <duoxehyon> damn
+[2023-04-09 19:08:58] <duoxehyon> i was lucky ig only approved the swap amount
+[2023-04-09 19:09:18] <duoxehyon> try to do this tbh saved my ass twice lol
+[2023-04-09 19:09:49] <duoxehyon> ehh just change wallet
+[2023-04-09 19:14:59] <duoxehyon> im now extra cautious have my wallet seed written in a paper lol not keeping main wallet in windows etc...
+[2023-04-09 19:15:19] <yannickcrypto> just buy a ledger fren
+[2023-04-09 19:15:43] <duoxehyon> ledger is trash
+[2023-04-09 19:15:47] <yannickcrypto> YOU TRASH
+[2023-04-09 19:15:50] <duoxehyon> YOU TRASH
+[2023-04-09 19:15:53] <yannickcrypto> HEY
+[2023-04-09 19:15:57] <duoxehyon> HAHA
+[2023-04-09 20:43:03] <duoxehyon> holy shit 25k views
+[2023-04-09 20:44:07] <duoxehyon> imo the best aggregator of aggregators onchain
+[2023-04-09 20:51:02] <duoxehyon> yeah but for regular swaps its the best
+--------------------------------------------------------------------------------
+[2023-06-15 01:39:33] <shunshow> bruhhhhh
+[2023-06-15 01:39:38] <shunshow> bruh
+[2023-06-15 01:40:05] <yannickcrypto> hacker verified his contract
+[2023-06-15 01:40:32] <yannickcrypto> weird that he use SafeERC20 lib for transfer but use assembly to execute the exploit?
+[2023-06-15 01:41:00] <stalkopat> probably to hide it?
+[2023-06-15 01:42:30] <stalkopat> raises the barrier to hacky hack a bit by requiring people to either understand assembly or understand how to read tx traces
+[2023-06-15 01:43:14] <yannickcrypto> or weird flex
+[2023-06-15 01:43:32] <the0x> why are they allowing recovery without fee? is it a white hack?
+[2023-06-15 01:43:46] <yannickcrypto> ya
+[2023-06-15 01:43:49] <.sheero> yannick getting 5k views now wow
+[2023-06-15 01:43:53] <yannickcrypto> YES
+[2023-06-15 01:44:03] <stalkopat> probably entirely solves the legal question of is this whitehack legal?
+[2023-06-15 01:44:06] <yannickcrypto> I NEED MORE CLOUT
+[2023-06-15 01:44:26] <stalkopat> yannick you should've included the recoverWithDonate calldata aswell
+[2023-06-15 01:44:47] <stalkopat> poor guy hasn't gotten a single Donation yet
+[2023-06-15 01:44:52] <yannickcrypto> i wanted to name it recover() and recoverWithDonate()
+[2023-06-15 01:44:56] <yannickcrypto> i knew he named the second function this way
+[2023-06-15 01:45:03] <yannickcrypto> but was too lazy to confirm
+[2023-06-15 01:45:27] <yannickcrypto> would be funny how he knew the function name before verified contract
+[2023-06-15 01:45:28] <0xmiri> it feels good ngl
+[2023-06-15 01:45:59] <yannickcrypto> he should have added a allowance check in recover
+[2023-06-15 01:46:31] <optimcoder> tracking the contract to check who will donate
+[2023-06-15 01:46:37] <stalkopat> maybe thats how he'll cover the tx fees and take his whitehat bounty after all
+[2023-06-15 01:46:52] <stalkopat> Why would I be the hacker? I literally created the first whitehack with a withdraw function...
+[2023-06-15 01:46:52] <the0x> is this the polygon version of the hack https://polygonscan.com/tx/0x19aabf945a5be9384219bb07677d8d33f5caf1c99b5dff5f3f0d85cb0e23ca33
+[2023-06-15 01:47:19] <yannickcrypto> ya
+[2023-06-15 01:47:23] <yannickcrypto> he got frontrunned ig
+[2023-06-15 01:47:48] <stalkopat> Did he?
+[2023-06-15 01:47:51] <ftx2> its same deployer
+[2023-06-15 01:47:58] <ftx2> he also did it on arbi
+[2023-06-15 01:48:15] <ftx2> avax and bsc
+[2023-06-15 01:48:21] <ftx2> https://snowtrace.io/address/0x91d087186c87e1c269be89c74f61423675727065
+[2023-06-15 01:48:30] <__reece__> Does sbf still follow you
+[2023-06-15 01:48:32] <yannickcrypto> no idea tbh
+[2023-06-15 01:48:47] <stalkopat> This is how you should do (if you really feel a need to do it) a whitehat thing without contacting the protocol rescue on all chains and make a proper recover contract
+[2023-06-15 01:48:51] <__reece__> Yannick sbf arc
+[2023-06-15 01:49:08] <__reece__> Kind of crazy that he does ngl
+[2023-06-15 01:49:36] <simdoes> how does one get a follow from sbf
+[2023-06-15 01:49:52] <__reece__> Siphon funds
+[2023-06-15 01:49:52] <yannickcrypto> i had a exploit in FTX withdraw system
+[2023-06-15 01:49:57] <ftx2> nobody using the donate one 
+[2023-06-15 01:50:11] <simdoes> goddamn
+[2023-06-15 01:50:32] <stalkopat> next time just take 1/30'th of the biggest position and brag on twitter before doing anything else
+[2023-06-15 01:51:11] <yannickcrypto> and get frontrunned and dont care about the 1000 other victims
+[2023-06-15 01:52:35] <stalkopat> damn Polygon scamming competition is fierce
+[2023-06-15 01:53:06] <yannickcrypto> wew
+[2023-06-15 01:59:41] <breeze.dev> in the first hour too 
+--------------------------------------------------------------------------------
+[2022-06-24 08:22:11] <inversebrah> Sheeeeeeeesh
+[2022-06-24 08:22:58] <yannickcrypto> LOOOOOOOOOOOOOOOL
+[2022-06-24 08:23:20] <inversebrah> Lmao did you send eth to the hacker?
+[2022-06-24 08:23:33] <yannickcrypto> just a message
+[2022-06-24 08:24:45] <inversebrah> That's like an advertisement lmao
+[2022-06-24 08:25:21] <yannickcrypto> it is an ad 
+[2022-06-24 08:25:59] <inversebrah> Also saw some protocols getting dns hacked
+--------------------------------------------------------------------------------
+[2022-06-16 22:02:10] <vagabond2971> to hide IP?
+[2022-06-16 22:03:44] <0x7ec> wtf inverse finance got exploited by an oracle manipulation AGAIN?
