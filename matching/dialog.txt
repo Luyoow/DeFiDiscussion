@@ -1,0 +1,16 @@
+<goobygg> Curve Finance front end is compromised  samczref in #offtopic
+<0x7ec> or join us in #general
+<eyaleponym> Meaning bundles arrive / pass simulation too late to be included?
+<goobygg> I don't check gen chat too often 
+<goobygg> Let me hop in there
+<vagabond2971> someone should send some tornado eth to the wethusdc uni pool no?
+<__reece__> That would be interesting
+<0x7ec> it would be a revert? no fallback or receive
+<0x7ec> maybe with some extra steps
+<ani9040> could tornado in some usdc
+<arianonwastaken> nothing a good ol selfdestruct can't solve
+<ani9040> or did they already blacklist the tornado addresses?
+<arianonwastaken> they did
+<bertcmiller> yes
+<eyaleponym> Thanks Is there a good way to check for this? The time stamp on the block seems largely irrelevant
+<rjected> implementing simple tx exchange w/ akula might not be that hard if u really want to use it
